@@ -3,20 +3,37 @@
 <head>
 <meta charset="UTF-8">
 
+<link rel="stylesheet" href="styles.css">
+
 <title>Odin Recipes</title>
 
 
 </head>
 
 <body>
-  <h1>Odin Recipes</h1>
-    <ul>
+  <h1 class="Title">Odin Recipes</h1>
+    <ul class="list">
      <li><a href="./recipes/crepes.html">Crepes</a></li>
      <li><a href="./recipes/easy-enchiladas.html">Easy Enchiladas</a>
       <li><a href="./recipes/simple-spaghetti.html">Simple Spaghetti</a></li>
 
 
      </ul>
+
+     <script>
+
+      let input = prompt("What food you a like? Is crepe? Doof tae? Is good food you lik now bunderful? Why are you?");
+      if (input == "What?") {
+        alert("Ah, you've seen the trick of the mad fellows! Don thou tinfoil hat, and be knighted, number ten!");
+      } else if (input == "bunderful?") {
+        alert("Bunderful: noun. A thing, person, or flarn that is exhalted, special, or cloudy.");
+      } else if (input == "what?") {
+        alert("Ah, you've seen the trick of the mad fellows! Don thou tinfoil hat, and be knighted, number ten!");
+      }
+      else {
+        alert("You potato!");
+      }
+     </script>
 
 
 </body>
