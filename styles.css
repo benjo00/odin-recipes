@@ -1,0 +1,47 @@
+.Title {
+    color: red;
+    border: 2px solid;
+    border-color: black;
+    margin: 100px;
+    margin-left: 520px;
+    width: 200px;
+    
+
+
+}
+
+.crepes {
+    color: green;
+    font-weight: 900;
+    text-align: center;
+}
+
+.used {
+    color: green;
+}
+
+.list {
+    border: 2px solid;
+    margin: 100px;
+    margin-left: 520px;
+    width: 200px;
+    padding: auto;
+}
+
+.ingredients {
+    border: 2px solid;
+    background-color: honeydew;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+
+.directions {
+    border: 2px dotted;
+    border-color: red;
+}
+
+.image {
+    text-align: center;
+}
