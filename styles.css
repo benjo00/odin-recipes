@@ -1,9 +1,9 @@
 .Title {
-    color: red;
+    color: rgb(210, 57, 30);
     border: 2px solid;
     border-color: black;
-    margin: 100px;
-    margin-left: 520px;
+    margin-right: auto;
+    margin-left: auto;
     width: 200px;
     
 
@@ -11,9 +11,10 @@
 }
 
 .crepes {
-    color: green;
+    color: brown;
     font-weight: 900;
     text-align: center;
+    
 }
 
 .used {
@@ -22,26 +23,128 @@
 
 .list {
     border: 2px solid;
-    margin: 100px;
-    margin-left: 520px;
+    margin-right: auto;
+    margin-left: auto;
     width: 200px;
     padding: auto;
+    list-style-type: none;
+    text-decoration: none;
 }
 
-.ingredients {
-    border: 2px solid;
-    background-color: honeydew;
-    text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-
+a {
+    text-decoration: none;
+    
+   
 }
 
-.directions {
-    border: 2px dotted;
-    border-color: red;
+.liColor {
+    color: brown;
 }
+
+.liColor2 {
+    color: rgb(100, 72, 1);
+}
+
+.liColor3 {
+    color: darkblue;
+}
+
+.liColor4 {
+    color: forestgreen;
+}
+
+
+
 
 .image {
     text-align: center;
+}
+
+.pics {
+display: flex;
+gap: 15px;
+
+
+}
+
+.epic {
+    width: 100%;
+}
+
+.epicText {
+    margin-left: 220px;
+    margin-top: -17px;
+
+    
+}
+
+.dio {
+    width: 100%;
+    margin-left: 900px;
+}
+.title {
+    text-align: center;
+    color: forestgreen;
+}
+
+.relativism {
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.nag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nagWord {
+    text-align: center;
+    
+}
+
+.vasu {
+    text-align: center;
+}
+
+.pyr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skep {
+    color: darkblue;
+    text-align: center;
+}
+
+.pyrText {
+    text-align: center;
+}
+
+.idealColor {
+    background-color: rgb(224, 224, 224);
+}
+
+.mainColor {
+    background-color: rgb(189, 153, 88);
+    
+}
+
+.relColor {
+    background-color: burlywood;
+}
+
+.skepColor {
+    background-color: olivedrab;
+}
+
+.comColor {
+    background-color: darkkhaki;
+}
+
+.odinImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
