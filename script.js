@@ -1,6 +1,7 @@
 
 
 let input = prompt("What is the meaning of life?")
+input = input.toLowerCase();
 if (input == "To party" || input == "to party" || input == "To party!" || input == "to party!") {
     alert("You're an animal!");
 } else if (input == "forty-two" || input == "forty two" || input == "42") {
