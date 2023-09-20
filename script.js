@@ -1,8 +1,6 @@
-
-
 let input = prompt("What is the meaning of life?")
 input = input.toLowerCase();
-if (input == "To party" || input == "to party" || input == "To party!" || input == "to party!") {
+if (input == "to party") {
     alert("You're an animal!");
 } else if (input == "forty-two" || input == "forty two" || input == "42") {
     alert("Ah, that is the ultimate answer, but what is the ultimate question?");
@@ -30,11 +28,11 @@ if (input == "To party" || input == "to party" || input == "To party!" || input 
     alert("Yes, but with a Mario-like accent.");
 } else if (input == "water") {
     alert("I mean, yeah, not very imaginitive, but technically correct.");
-} else if (input == "Love") {
+} else if (input == "love") {
     alert("Well, isn't that a nice answer?");
 } else if (input == "sleep") {
     alert("Got it, go talk to morpheus.");
-} else if (input == "Dune" || input == "dune" || input == "Dune." || input == "dune.") {
+} else if (input == "dune" || input == "dune.") {
 alert("The spice must flow.");
 } else if (input == "beauty") {
     alert("Go see if Narcissus has any openings.");
@@ -52,7 +50,7 @@ alert("The spice must flow.");
 alert("Yay neature!");
 } else if (input == "big flopping donkey ears.") {
 alert("Why are you like this?");
-} else if (input == "What is the ultimate question?") {
+} else if (input == "what is the ultimate question?") {
     alert("What do you get when you multiply six by seven?");
 } else if (input == "golf") {
     alert("Hole in one!");
@@ -72,14 +70,19 @@ alert("Why are you like this?");
     alert("Lao Tzu approves");
 } else if (input == "to reproduce") {
     alert("That's arguably correct on a technical level.");
-} else if (input == "i don't know" || input == "I don't know" || input == "idk") {
+} else if (input == "i don't know" || input == "i dont know" || input == "idk") {
     alert("How very Ajnana of you.");
 } else if (input == "to pass on knowledge" || input == "To pass on knowledge") {
     alert("Find something to believe in, and find it for yourself. When you do, pass it on to the future. -Solid Snake");
-} else if (input == "family" || input == "Family") {
+} else if (input == "family") {
     alert("Heartwarming answer."); 
-} else {
-    alert("On second thought, let’s not go to Camelot. ‘Tis a silly place");
-}
-
+} else if (input == "pizza") {
+    alert("Anything is pizza, so long as it is flat.");
+    } else if (input =="nothing") {
+        alert("Hopefully that's cheerful nihilism");
+    } else if (input == "cheeseburgers") {
+        alert("Yum!");
+    } else {
+alert("On second thought, let’s not go to Camelot. ‘Tis a silly place");
+    }
 
